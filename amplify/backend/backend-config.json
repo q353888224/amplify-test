@@ -1,0 +1,17 @@
+{
+	"function": {
+		"amplifytest1a72b462": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": []
+		}
+	},
+	"auth": {
+		"cognitodf5d25d1": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"api": {}
+}
